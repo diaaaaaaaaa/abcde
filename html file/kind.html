@@ -3,34 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style1.css">
     <title>奶油 | 種類</title>
+        <style>    
+            *{
+              margin: 0;
+              padding: 0;
+              list-style: none;
+            }
+            
+            html {
+              scroll-behavior: smooth;
+            }
+            
+            body {
+              overflow: hidden;
+              height: 100vh;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background: linear-gradient(#c5d5fa, #fcdef4,  #f0f0d6);
+            
+            }
+            
+            main {
+              overflow-y: auto;
+            }
+            
+            .sidebar {
+              background-color: darkorange;
+            }
+            
+            aside {
+              flex: 1 0 14.4%;
+            }
+            
+            .aside, .option ul li {
+              width: 100%;
+            }
+            
+            .option ul {
+              padding: 15px 0;
+            }
+            
+            .option ul li {
+              display: flex;
+              align-items: center;
+              width: 195px;
+              margin-top: 15px;
+              padding-left: 25px;
+              cursor: pointer;
+              color:black;
+              position: relative;
+            }
+            
+            .option ul li p {
+              width: 145px;
+              height: 30px;
+              line-height: 30px;
+              font-size: 15px;
+              padding-left: 15px;
+              margin-left: 10px;
+              letter-spacing: 1px;
+            }
+            
+            .option ul li img {
+              width: 25px;
+              height: 25px;
+            }
+            
+            
+            .wrapper {
+              display: flex;
+              height: 100%;
+            }
+            
+            .active {
+              color:darkviolet;
+              font-weight: bold;
+            }
+            
+            a {
+              display: block;
+              padding: 7%;
+              color:brown;
+              text-decoration:none;
+              text-align: center;
+              transition: color 1s;
+              font-size: 20px;
+            }
+            
+            
+            a:hover {
+              color: black;
+              font-weight: bold;
+            }
+            
+            
+            h1 {
+              text-align: center;
+              font-weight: bold;
+              color:brown;
+              margin: 25px;
+              font-size: 80px;
+            }
+            
+            h2 {
+              text-align:center;
+              color: darkgoldenrod;
+              font-weight: bold;
+              margin: 30px;
+              font-size: 40px;
+            }
+            
+            .headSculpture img {
+              display:flex;
+              width: 100px;
+              height: 100px;
+              margin: 0 auto;
+              padding: 20px;
+            
+            }
+            
+            .headSculpture p{
+              margin: 0 auto;
+              margin-bottom:40px;
+              font-size: 17px;
+              color: black;
+              width: 160px;
+              height: 60px;
+              line-height: 30px;
+              background-color: rgb(255, 255, 255);
+              text-align: center;
+            }
+            
+            .word {
+              color:rgba(150, 210, 247, 0.907);
+              text-align: center;
+              margin: 10px;
+              font-size: 14px;
+            }
+            
+            table {
+              display:flex;
+              font-size: 18px;
+              border: 2px;
+              border: 2px solid black;
+              text-align: center;
+              margin: 40px;
+            }
+            
+            td {
+              border: 2px dashed black;
+              flex:flex;
+              justify-content: flex-end;
+              vertical-align:middle;
+              font-weight: bolder;
+            
+            }
+            
+            
+            .pic {
+              width: 240px;
+              height: 200px;
+            }
+            
+            .til {
+              animation: anime 7s infinite;
+            }
+            
+            @keyframes anime {
+              0%{opacity:0}
+              50%{opacity:1}
+              100%{opacity:0 }
+            }
+            
+            
+            h2 {
+              text-align:center;
+              color: darkgoldenrod;
+              font-weight: bold;
+              margin: 20px 20px;
+              font-size: 30px;
+            }
+            
+            
+            .src {
+              margin: 0;
+              padding: 0;
+              height:100px;
+              width:100px;
+            }
+
+        </style>
 </head>
 <body>
-    <div class="wrapper">
+     <div class="wrapper">
         <div class="sidebar">
             <div class="headSculpture">
-                <img src="/image/headSculpture.png">
+                <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/headSculpture.png?raw=true">
                 <p>歡迎光臨<br>這是介紹奶油的網站~</p>
             </div>
             <aside>
                 <div class="option">
                     <ul>
                         <li>
-                            <img src="/image/butter (1).png">
-                                <a href="/index.html">首頁</a>
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
+                                <a href="https://diaaaaaaaaa.github.io/abcde.github.io/html file/index.html">首頁</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
-                                <a  href="./history.html">歷史</a>
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
+                                <a https://diaaaaaaaaa.github.io/abcde.github.io/html file/history.html">歷史</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a class="active" href="#">種類</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
-                                <a href="/cock.html">作法</a>
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
+                                <a href="https://diaaaaaaaaa.github.io/abcde.github.io/html file/cock.html">作法</a>
                         </li>
                     </ul>
                 </div>        
@@ -40,7 +229,7 @@
         
     <main>
         <body>
-            <h1 class="til"><img src="/image/61b9aa90.gif!gif_520cc_35" class="src">奶油種類的奶油型態、特色<img src="/61b9aa90.gif!gif_520cc_35" class="src"></h1>   
+            <h1 class="til"><img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/31c5b8d4.gif?raw=true" class="src">奶油種類的奶油型態、特色<img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/31c5b8d4.gif?raw=true" class="src"></h1>   
         <table>
              <tr>
                 <td><h2>名稱</h2></td>               
@@ -48,7 +237,7 @@
                 <td><h2>內容</h2></td>
              <tr>
                 <td>有鹽奶油</td>
-                <td rowspan="2"><img class="pic" src="/image/unsalted-butter-versus-salted-bu.png" alt="有鹽&無鹽奶油"></td>
+                <td rowspan="2"><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/unsalted-butter-versus-salted-bu.png?raw=true" alt="有鹽&無鹽奶油"></td>
                 <td>添加少許鹽分的奶油，帶有淡淡的鹹味，讓奶油的味道多了一種風味，常用於鹹食料理或當作麵包抹醬</td>
                 </tr>
             <tr>
@@ -58,36 +247,36 @@
             </tr>
             <tr>
                 <td>焦化奶油</td>
-                <td><img class="pic" src="/image/beurre-noisette.png" alt="焦化奶油"></td>
+                <td><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/beurre-noisette.png?raw=true" alt="焦化奶油"></td>
                 <td>將融化的奶油持續加熱，直至變成褐色且散發堅果般的香氣。要特別注意的是，焦化奶油的加熱時間要拿捏好，以免一不小心就變為「燒焦」奶油
                     料理時也可運用焦化奶油煎、炒或是當成醬汁，例如焦化奶油煎干貝、加入鼠尾草（或其他香草）變成焦化奶油成為牛排調味奶油醬等等。</td>
             </tr>
             <tr>
                 <td>澄清奶油</td>
-                <td><img class="pic" src="/image/Clarified.png" alt="澄清奶油"></td>
+                <td><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/Clarified.png?raw=true" alt="澄清奶油"></td>
                 <td>是從奶油中提煉出的液態牛奶脂肪。奶油內有15~16%的水分，奶油的總組成包括80~82%油脂以及1~2%乳化物，當你持續加熱提煉澄清奶油時，基本上你蒸發了所有的水分，乳化物在此過程也會焦掉，剩下是幾乎純粹的乳脂肪。澄清奶油因為去除了水分，所以又稱無水奶油。。無水奶油熔點比普通奶油熔點高，在西餐中通常用來煎炸食品。與南亞地區常用的酥油的區別是，酥油是由奶油熬製而成所以帶有焦香風味。</td>
             </tr>
             <tr>
                 <td>發酵奶油</td>
-                <td><img class="pic" src="/image/culture.png" alt="發酵奶油"></td>
+                <td><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/culture.png?raw=true" alt="發酵奶油"></td>
                 <td>法國和其他歐洲國家生產的奶油通常會在牛奶中加入生箘，靜待一段時間發酵、風味熟成，之後才提煉成奶油，類似優酪乳做法。另外，歐洲產的奶油的油脂成分至少在82%以上，相較之下，美國產的奶油通常沒有經過發酵這個步驟直接製成奶油，油脂的成分也較低，甚至低於80%。發酵奶油的味道會帶有一點酸味，比普通奶油味道豐富，高油脂的特性對做出酥鬆的派皮也有幫助。是在製作奶油的過程中加入乳酸菌，讓奶油進行發酵，這種發酵會讓奶油的風味變得很清爽，有香氣，嚐起來又不會有酸味。 而這種清爽感是一般未經發酵的奶油所欠缺的。
                 </td>
             </tr>
             <tr>
                 <td>冷藏奶油</td>
-                <td><img class="pic" src="/image/cold.png" alt="冷藏奶油"></td>
+                <td><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/cold.png?raw=true" alt="冷藏奶油"></td>
                 <td>奶油含有15~16%的水分，相較於酥油、植物油是純粹的油脂，它可以做出更鬆的塔皮。當奶油在烘烤過程中融化時，水分蒸發成水蒸氣讓麵粉與油脂層分開形成我們追求的層次感，口感不會紮實而是輕盈。如果要製作可頌麵包，將包裹著奶油的麵團反覆進出冰箱，讓奶油維持冷藏溫度，就是追求豐富層次的重要技巧。
                 </td>
             </tr>
             <tr>
                 <td>室溫奶油</td>
-                <td><img class="pic" src="/image/soft.png" alt="室溫奶油"></td>
+                <td><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/soft.png?raw=true" alt="室溫奶油"></td>
                 <td>奶油在室溫下是固體，超過95°F/36°C後成為液態。
                     在甜點食譜中經常看到“將奶油放置常溫一段時間” 或是使用‘常溫奶油/室溫奶油”的敘述。這是因為做奶油類蛋糕常常第一個動作是打發奶油，而室溫奶油的狀態較容易與糖攪拌均勻，當砂糖被奶油裡的水分吸收，就能增加成品的保濕性。</td>
             </tr>
             <tr>
                 <td>融化奶油</td>
-                <td><img class="pic" src="/image/melt.png" alt="融化奶油"></td>
+                <td><img class="pic" src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/melt.png?raw=true" alt="融化奶油"></td>
                 <td>將奶油加熱完全變為液態，有利於與麵糊混合拌勻。要注意的是，溫度過高或過低都會影響製作出的糕點口感，建議可將溫度控制在60度上下為佳</td>
             </tr>
         </table>   
