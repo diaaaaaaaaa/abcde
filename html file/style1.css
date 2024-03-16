@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(#c5d5fa, #fcdef4,  #f0f0d6);
+
+}
+
+main {
+  overflow-y: auto;
+}
+
+.sidebar {
+  background-color: darkorange;
+}
+
+aside {
+  flex: 1 0 14.4%;
+}
+
+.aside, .option ul li {
+  width: 100%;
+}
+
+.option ul {
+  padding: 15px 0;
+}
+
+.option ul li {
+  display: flex;
+  align-items: center;
+  width: 195px;
+  margin-top: 15px;
+  padding-left: 25px;
+  cursor: pointer;
+  color:black;
+  position: relative;
+}
+
+.option ul li p {
+  width: 145px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  padding-left: 15px;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+.option ul li img {
+  width: 25px;
+  height: 25px;
+}
+
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.active {
+  color:darkviolet;
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  padding: 7%;
+  color:brown;
+  text-decoration:none;
+  text-align: center;
+  transition: color 1s;
+  font-size: 20px;
+}
+
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color:brown;
+  margin: 25px;
+  font-size: 80px;
+}
+
+h2 {
+  text-align:center;
+  color: darkgoldenrod;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 40px;
+}
+
+.headSculpture img {
+  display:flex;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.headSculpture p{
+  margin: 0 auto;
+  margin-bottom:40px;
+  font-size: 17px;
+  color: black;
+  width: 160px;
+  height: 60px;
+  line-height: 30px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.word {
+  color:rgba(150, 210, 247, 0.907);
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+}
+
+table {
+  display:flex;
+  font-size: 18px;
+  border: 2px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 40px;
+}
+
+td {
+  border: 2px dashed black;
+  flex:flex;
+  justify-content: flex-end;
+  vertical-align:middle;
+  font-weight: bolder;
+
+}
+
+
+.pic {
+  width: 240px;
+  height: 200px;
+}
+
+.til {
+  animation: anime 7s infinite;
+}
+
+@keyframes anime {
+  0%{opacity:0}
+  50%{opacity:1}
+  100%{opacity:0 }
+}
+
+
+h2 {
+  text-align:center;
+  color: darkgoldenrod;
+  font-weight: bold;
+  margin: 20px 20px;
+  font-size: 30px;
+}
+
+
+.src {
+  margin: 0;
+  padding: 0;
+  height:100px;
+  width:100px;
+}

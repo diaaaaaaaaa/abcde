@@ -1,0 +1,5 @@
+一、插圖片
+body {
+    background-image:url(地址);
+    background-size: cover;
+}

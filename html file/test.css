@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url(/flower-frame-printable-template.png);
+    background-repeat:cover;
+    background-position: center;
+    margin: 20px 
+
+
+}
+
+h1 {
+    color:darkblue;
+    font-size: 60px;
+    margin: 20px;
+    border-bottom-style:solid;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    color:darkmagenta;
+    font-size: 30px;
+    text-align: center;
+}
+
+div {
+    margin: 30px;
+    font-size: 18px;
+    color: black;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 20px 120px;
+    text-align: center;
+    text-indent: 2em;
+
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            width: auto;
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+        }
+
+        body ul {
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            background-color: aliceblue;
+        }
+
+        ul li {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            border-bottom: 1px solid black;
+            list-style: none;
+        }
+
+        a {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li> <a href="#sectionOne"> sectionOne</a> </li>
+        <li> <a href="#sectionTwo"> sectionTwo</a> </li>
+        <li> <a href="#sectionThree"> sectionThree</a> </li>
+        <li> <a href="#sectionFour"> sectionFour</a> </li>
+        <li> <a href="#sectionFive"> sectionFive</a> </li>
+        <li> <a href="#sectionSix"> sectionSix</a> </li>
+        <li> <a href="#sectionSeven"> sectionSeven</a> </li>
+        <li> <a href="#sectionEight"> sectionEight</a> </li>
+    </ul>
+    <main>
+        <section id="sectionOne" style="height: 500px;background-color: rgb(81, 185, 245);margin-bottom: 30px;">
+            sectionOne
+        </section>
+        <section id="sectionTwo" style="height: 500px;background-color: rgb(172, 176, 180);margin-bottom: 30px;">
+            sectionTwo</section>
+        <section id="sectionThree" style="height: 500px;background-color: rgb(87, 216, 201);margin-bottom: 30px;">
+            sectionThree</section>
+        <section id="sectionFour" style="height: 500px;background-color: aliceblue;margin-bottom: 30px;">
+            sectionFour
+        </section>
+        <section id="sectionFive" style="height: 500px;background-color: rgb(180, 153, 74);margin-bottom: 30px;">
+            sectionFive</section>
+        <section id="sectionSix" style="height: 500px;background-color: rgb(96, 99, 175);margin-bottom: 30px;">
+            sectionSix</section>
+        <section id="sectionSeven" style="height: 500px;background-color: rgb(224, 70, 238);margin-bottom: 30px;">
+            sectionSeven</section>
+        <section id="sectionEight" style="height: 500px;background-color: rgb(226, 141, 101);margin-bottom: 30px;">
+            sectionEight</section>
+    </main>
+
+</body>
+
+<script>
+    const $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body'),
+        $section = $('section');
+    var numOfPages = $section.length - 1, // 取得section
+    curPage = 0, //起始頁
+    scrollLock = false; //滾動開關
+    function scrollPage() {
+    //滑鼠滾動
+    $(document).on("mousewheel DOMMouseScroll", function(e) {
+    if (scrollLock) return;
+    if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0)
+        navigateUp();
+    else
+        navigateDown();
+    });
+    //鍵盤上下鍵
+    $(document).on("keydown", function(e) {
+    if (scrollLock) return;
+    if (e.which === 38)
+        navigateUp();
+    else if (e.which === 40)
+        navigateDown();
+    });
+}</script>
+
+
+</html>

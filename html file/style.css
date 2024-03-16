@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    background-image:url(/image/butter-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .8);
+
+  }
+
+main {
+    overflow-y: auto;
+  }
+
+.sidebar {
+    background-color: darkorange;
+}
+
+aside {
+    flex: 1 0 14.4%;
+}
+
+.aside, .option ul li {
+    width: 100%;
+}
+
+.option ul {
+    padding: 15px 0;
+}
+
+.option ul li {
+    display: flex;
+    align-items: center;
+    width: 195px;
+    margin-top: 15px;
+    padding-left: 25px;
+    cursor: pointer;
+    color:black;
+    position: relative;
+}
+
+.option ul li p {
+    width: 145px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.option ul li img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.wrapper {
+    display: flex;
+    height: 100%;
+  }
+
+.active {
+    color:darkviolet;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    padding: 7%;
+    color:brown;
+    text-decoration:none;
+    text-align: center;
+    transition: color 1s;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color:yellow;
+    margin: 25px;
+    font-size: 80px;
+    border-bottom-style:solid;
+    transition: ease-in 2s;
+}
+
+h2 {
+    text-align:left;
+    color: darkgoldenrod;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.inner p {
+    font-size: 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height:50px;
+    color:white;
+    margin: 30px;
+
+}
+
+.headSculpture img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.headSculpture p{
+    margin: 0 auto;
+    margin-bottom:40px;
+    font-size: 17px;
+    color: black;
+    width: 160px;
+    height: 60px;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.inner img{
+    display:block;
+    margin:auto;
+    height: 50vh;
+    width: 80vh;
+}
+
+.word {
+    color:rgba(150, 210, 247, 0.907);
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+}
+
+

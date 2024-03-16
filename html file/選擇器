@@ -1,0 +1,26 @@
+css選擇器 (css seLector)
+
+element seLector  
+h2(屬性){
+    color: blue
+}
+
+id seLector
+# id名稱{
+    color: red
+}
+
+class seLector
+. class名稱{
+    color: green
+}
+
+element seLector 和 class seLector 並用  (只在眾多的相同屬性中選擇有特別還有class屬性的那一條)
+屬性.class名稱{
+    font-size: 32px
+}
+
+ex:
+a.first{
+    font-size: 32px
+}
