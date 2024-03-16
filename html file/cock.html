@@ -4,31 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>奶油 | 種類</title>
+    <style>    
+            *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+            }
+  
+      html {
+      scroll-behavior: smooth;
+      }
+      
+      body {
+        overflow: hidden;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:rgb(197, 202, 175);
+      }
+      
+      main {
+        overflow-y: auto;
+      }
+      
+      .sidebar {
+        background-color: darkorange;
+      }
+      
+      aside {
+        flex: 1 0 14.4%;
+      }
+      
+      .aside, .option ul li {
+        width: 100%;
+      }
+      
+      .option ul {
+        padding: 15px 0;
+      }
+      
+      .option ul li {
+        display: flex;
+        align-items: center;
+        width: 195px;
+        margin-top: 15px;
+        padding-left: 25px;
+        cursor: pointer;
+        color:black;
+        
+      }
+      
+      .option ul li p {
+        width: 145px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+        padding-left: 15px;
+        margin-left: 10px;
+        letter-spacing: 1px;
+      }
+      
+      .option ul li img {
+        width: 25px;
+        height: 25px;
+      }
+      
+      
+      .wrapper {
+        display: flex;
+        height: 100%;
+      }
+      
+      .active {
+        color:darkviolet;
+        font-weight: bold;
+      }
+      
+      a {
+        display: block;
+        padding: 7%;
+        color:brown;
+        text-decoration:none;
+        text-align: center;
+        transition: color 1s;
+        font-size: 20px;
+      }
+      
+      
+      a:hover {
+        color: black;
+        font-weight: bold;
+      }
+      
+      
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        color:brown;
+        margin: 25px;
+        font-size: 80px;
+      }
+      
+      h2 {
+        text-align:center;
+        color: darkgoldenrod;
+        font-weight: bold;
+        margin: 30px;
+        font-size: 30px;
+      }
+      
+      .headSculpture img {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        padding: 20px;
+      
+      }
+      
+      .headSculpture p{
+        margin: 0 auto;
+        margin-bottom:40px;
+        font-size: 17px;
+        color: black;
+        width: 160px;
+        height: 60px;
+        line-height: 30px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+      }
+    
+    
+    
+    iframe {
+      width: 100vh;
+      height: 50vh;
+      position: relative;
+      top: 25%;
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      margin: 20px;
+    }
+    
+    .gif {
+      height: 120px;
+      margin: auto;
+      padding: auto;
+    }
+    
+    .red {
+      display: flex;
+      margin: 20px;
+      width: 170vh;
+      height: 200px;
+      font-size: 23px;
+      line-height: 2;
+      letter-spacing: 3px;
+      font-weight: bold;
+      color: black;
+      padding: 15px;
+      border: 10px dashed #FF5722;
+      background:
+      linear-gradient(to top, rgb(238, 221, 26), 10px, transparent 10px),
+      linear-gradient(to right, rgb(216, 130, 173), 10px, transparent 10px),
+      linear-gradient(to bottom, rgb(182, 144, 247), 10px, transparent 10px),
+      linear-gradient(to left, rgb(62, 70, 229), 10px, transparent 10px);
+      background-origin: border-box;
+    }
+
+  
+
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="sidebar">
             <div class="headSculpture">
-                <img src="/image/headSculpture.png">
+                <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/headSculpture.png?raw=true">
                 <p>歡迎光臨<br>這是介紹奶油的網站~</p>
             </div>
             <aside>
                 <div class="option">
                     <ul>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a href="/index.html">首頁</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a  href="./history.html">歷史</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a href="/kind.html">種類</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                             <a class="active" href="#">作法</a>
                         </li>
                     </ul>
@@ -39,7 +210,7 @@
         
     <main>
     
-    <h1><img  class="gif"  src="/image/31c5b8d4.gif">奶油的製作<img  class="gif"  src="/image/31c5b8d4.gif"></h1>
+    <h1><img  class="gif"  src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/31c5b8d4.gif?raw=true">奶油的製作<img  class="gif"  src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/31c5b8d4.gif?raw=true"></h1>
     <h2>其實製作奶油非常的簡單，只需要三個步驟:</h2>
        <div class="red">
            1、首先，將液體鮮奶油倒入碗中，使用手持攪拌棒或是攪拌機開始做攪拌，打到中間時會開始出現顆粒狀，打到最後油水分離。<br>
