@@ -3,33 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>奶油 | 歷史</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        
+        }
+        
+        body {
+            overflow: hidden;
+            height: 100vh;
+            background-image:url(https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter-back.png?raw=true);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: multiply;
+            background-color: rgba(0, 0, 0, .8);
+        
+          }
+        
+        main {
+            overflow-y: auto;
+          }
+        
+        .sidebar {
+            background-color: darkorange;
+        }
+        
+        aside {
+            flex: 1 0 14.4%;
+        }
+        
+        .aside, .option ul li {
+            width: 100%;
+        }
+        
+        .option ul {
+            padding: 15px 0;
+        }
+        
+        .option ul li {
+            display: flex;
+            align-items: center;
+            width: 195px;
+            margin-top: 15px;
+            padding-left: 25px;
+            cursor: pointer;
+            color:black;
+            position: relative;
+        }
+        
+        .option ul li p {
+            width: 145px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 15px;
+            padding-left: 15px;
+            margin-left: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .option ul li img {
+            width: 25px;
+            height: 25px;
+        }
+        
+        
+        .wrapper {
+            display: flex;
+            height: 100%;
+          }
+        
+        .active {
+            color:darkviolet;
+            font-weight: bold;
+        }
+        
+        a {
+            display: block;
+            padding: 7%;
+            color:brown;
+            text-decoration:none;
+            text-align: center;
+            transition: color 1s;
+            font-size: 20px;
+        }
+        
+        
+        a:hover {
+            color: black;
+            font-weight: bold;
+        }
+        
+        
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            color:yellow;
+            margin: 25px;
+            font-size: 80px;
+            border-bottom-style:solid;
+            transition: ease-in 2s;
+        }
+        
+        h2 {
+            text-align:left;
+            color: darkgoldenrod;
+            font-weight: bold;
+            margin: 30px;
+            font-size: 30px;
+        }
+        
+        .inner p {
+            font-size: 20px;
+            text-align: left;
+            font-size: 18px;
+            line-height:50px;
+            color:white;
+            margin: 30px;
+        
+        }
+        
+        .headSculpture img {
+            display: flex;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .headSculpture p{
+            margin: 0 auto;
+            margin-bottom:40px;
+            font-size: 17px;
+            color: black;
+            width: 160px;
+            height: 60px;
+            line-height: 30px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        
+        .inner img{
+            display:block;
+            margin:auto;
+            height: 50vh;
+            width: 80vh;
+        }
+        
+        .word {
+            color:rgba(150, 210, 247, 0.907);
+            text-align: center;
+            margin: 10px;
+            font-size: 14px;
+        }
+
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="sidebar">
             <div class="headSculpture">
-                <img src="/image/headSculpture.png">
+                <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/headSculpture.png?raw=true">
                 <p>歡迎光臨<br>這是介紹奶油的網站~</p>
             </div>
             <aside>
                 <div class="option">
                     <ul>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a href="/index.html">首頁</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a class="active" href="#">歷史</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a href="/kind.html">種類</a>
                         </li>
                         <li>
-                            <img src="/image/butter (1).png">
+                            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/butter%20(1).png?raw=true">
                                 <a href="/cock.html">作法</a>
                         </li>
                     </ul>
@@ -54,7 +209,7 @@
             </p>
  
             <h2>● 奶油已經有 9,000 年的歷史了</h2>
-            <img src="/image/d1851205.jpg">
+            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/d1851205.jpg?raw=true">
             <div  class="word">愛爾蘭的沼澤出土一塊存放了2千年的奶油。（圖／翻攝自nationalpost）</div>
                 <p>
                     奶油和人類有著悠久的共同歷史，奶油已經存在了近 9000 年。
@@ -63,7 +218,7 @@
                     史料對古代奶油最古老的紀錄之一是沼澤奶油（bog butter）該奶油是保存於愛爾蘭濕地的奶油，其已發現的樣本可以追溯到公元前 400 年前。
                 </p>
             <h2>● 奶油的攪乳過程曾經是用「狗狗跑步機」作為動力來源</h2>
-            <img src="/image/1623521980-4024827722-g_n.png" >
+            <img src="https://github.com/diaaaaaaaaa/abcde.github.io/blob/main/html%20file/image/1623521980-4024827722-g_n.png?raw=true" >
                 <p>
                     奶油的製作工序其中之一叫做攪乳，其實就是攪動牛奶或鮮奶油好讓乳脂跟水分脫離留下奶油。這樣的工序在過去是用獸力來完成。
                     科斯羅娃德寫道：過去的其中一項發明將“狗、羊或馬作為跑步機動力，並驅動攪乳的機器。
